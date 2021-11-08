@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFVX4xQr/a0uV0mR6OXwf6gAAAAACAAAAAAAQZgAAAAEAACAAAACQEYiI4qMDINsPA6Jwrk820gsZKWPRpLLh832Cl87p7QAAAAAOgAAAAAIAACAAAABg9prG2+vpr7xbb6YwXLj0BzxW96QkoLeETGEPzU4sdyAAAACmmLlP1WbmX/nbNwSnEpyarZr08jLw22aEpsF17NsCzEAAAAAmPcfVdNxVrQp/Zz/AQznFYvI0r0FGFi03SpMm7acRn+OLdlhO+oVNk9kXfGKbYw1WVmp2CImSTDy6p97/T0vs</EncryptedPassword>
+    <_PublishTargetUrl>ftp://www.Actvitydiag.somee.com/www.Actvitydiag.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/activitydiagram.dll">
+      <publishTime>05/17/2015 14:35:30</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/17/2015 13:28:05</publishTime>
+    </File>
+    <File Include="font/BYekan.eot">
+      <publishTime>05/17/2015 12:06:19</publishTime>
+    </File>
+    <File Include="font/BYekan.ttf">
+      <publishTime>05/17/2015 12:06:19</publishTime>
+    </File>
+    <File Include="font/BYekan.woff">
+      <publishTime>05/17/2015 12:06:19</publishTime>
+    </File>
+    <File Include="images/favicon.ico">
+      <publishTime>05/17/2015 13:20:26</publishTime>
+    </File>
+    <File Include="Jquery.SVG/ace.js">
+      <publishTime>05/17/2015 10:48:42</publishTime>
+    </File>
+    <File Include="Jquery.SVG/jquery.min.js">
+      <publishTime>05/17/2015 10:46:00</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/.gitignore">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/.gitmodules">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/bower.json">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/build/sequence-diagram-min.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/build/sequence-diagram-min.js.map">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/fonts/daniel/Daniel Midgley.txt">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/fonts/daniel/daniel.ttf">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/fonts/daniel/danielbd.ttf">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/fonts/daniel/danielbk.ttf">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/fonts/daniel/daniel_700.font.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/LICENCE">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/Makefile">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/package.json">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/README.md">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/diagram.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/grammar.ebnf">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/grammar.jison">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/jquery-plugin.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/main.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/src/sequence-diagram.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/test/canvg.html">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/test/grammar-tests.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/test/qunit.html">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/test/raphael-mock.js">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/js-sequence-diagrams-master/test/test.html">
+      <publishTime>05/17/2015 10:31:32</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/.gitignore">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/bower.json">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/cortex.json">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/.jshintrc">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/copy.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/index.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/raphael.core.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/raphael.svg.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/raphael.vml.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/raphaelTest.html">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/dev/require.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/Gruntfile.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/history.md">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/license.txt">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/package.json">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/raphael-min.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/raphael.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/README.markdown">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/reference.html">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/raphael-master/reference.js">
+      <publishTime>05/17/2015 10:35:55</publishTime>
+    </File>
+    <File Include="Jquery.SVG/svginnerhtml.min.js">
+      <publishTime>05/17/2015 10:47:48</publishTime>
+    </File>
+    <File Include="Jquery.SVG/underscore.js">
+      <publishTime>05/17/2015 10:18:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>05/17/2015 09:16:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>05/17/2015 09:16:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>05/17/2015 09:16:00</publishTime>
+    </File>
+    <File Include="Style.css">
+      <publishTime>05/17/2015 13:27:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/17/2015 14:37:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
