@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B98A054-275D-4001-94A7-2B870977EBD1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>activitydiagram</RootNamespace>
+    <AssemblyName>activitydiagram</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="Jquery.SVG\ace.js" />
+    <Content Include="Jquery.SVG\jquery.min.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\.gitignore" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\.gitmodules" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\build\sequence-diagram-min.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\fonts\daniel\Daniel Midgley.txt" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\fonts\daniel\daniel_700.font.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\diagram.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\jquery-plugin.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\main.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\sequence-diagram.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\test\canvg.html" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\test\grammar-tests.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\test\qunit.html" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\test\raphael-mock.js" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\test\test.html" />
+    <Content Include="Jquery.SVG\raphael-master\.gitignore" />
+    <Content Include="Jquery.SVG\raphael-master\dev\amdDev.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\copy.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\index.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\raphael.core.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\raphael.svg.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\raphael.vml.js" />
+    <Content Include="Jquery.SVG\raphael-master\dev\raphaelTest.html" />
+    <Content Include="Jquery.SVG\raphael-master\dev\require.js" />
+    <Content Include="Jquery.SVG\raphael-master\Gruntfile.js" />
+    <Content Include="Jquery.SVG\raphael-master\license.txt" />
+    <Content Include="Jquery.SVG\raphael-master\raphael-min.js" />
+    <Content Include="Jquery.SVG\raphael-master\raphael.js" />
+    <Content Include="Jquery.SVG\raphael-master\reference.html" />
+    <Content Include="Jquery.SVG\raphael-master\reference.js" />
+    <Content Include="Jquery.SVG\svginnerhtml.min.js" />
+    <Content Include="Jquery.SVG\underscore.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Jquery.SVG\js-sequence-diagrams-master\_site\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\bower.json" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\build\sequence-diagram-min.js.map" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\fonts\daniel\daniel.ttf" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\fonts\daniel\danielbd.ttf" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\fonts\daniel\danielbk.ttf" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\LICENCE" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\Makefile" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\package.json" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\README.md" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\grammar.ebnf" />
+    <Content Include="Jquery.SVG\js-sequence-diagrams-master\src\grammar.jison" />
+    <Content Include="Jquery.SVG\raphael-master\bower.json" />
+    <Content Include="Jquery.SVG\raphael-master\cortex.json" />
+    <Content Include="Jquery.SVG\raphael-master\dev\.jshintrc" />
+    <Content Include="Jquery.SVG\raphael-master\history.md" />
+    <Content Include="Jquery.SVG\raphael-master\package.json" />
+    <Content Include="Jquery.SVG\raphael-master\README.markdown" />
+    <Content Include="font\BYekan.eot" />
+    <Content Include="font\BYekan.ttf" />
+    <Content Include="font\BYekan.woff" />
+    <None Include="Properties\PublishProfiles\ActivityDiagram.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1781</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1781/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
